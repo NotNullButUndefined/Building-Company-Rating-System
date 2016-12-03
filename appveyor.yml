@@ -7,4 +7,4 @@ artifacts:
 - path: /AppOutput
   name: AppOutput
 test_script:
-- dnx.exe D:\Education\3 course\itera\git\BCRS.Tests\project.json test -parallel none
+- dnx.exe C:\projects\building-company-rating-system-new\BCRS.Tests\project.json test -parallel none
