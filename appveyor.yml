@@ -3,3 +3,4 @@ os: Visual Studio 2015 RC
 build_script:
 - dnvm upgrade
 - dnu restore
+msbuild
