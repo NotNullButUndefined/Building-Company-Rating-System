@@ -3,7 +3,4 @@ os: Visual Studio 2015 RC
 build_script:
 - dnvm upgrade
 - dnu restore
-- dnu publish C:\projects\building-company-rating-system-new\BCRS --configuration Release -o AppOutput --no-source --runtime "active"
-artifacts:
-- path: /AppOutput
-  name: AppOutput
+
