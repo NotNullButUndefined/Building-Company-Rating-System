@@ -9,6 +9,7 @@ namespace BCRS.Tests
         [TestMethod]
         public void TestMethod1()
         {
+
         }
     }
 }
