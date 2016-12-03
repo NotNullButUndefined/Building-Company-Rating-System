@@ -4,3 +4,6 @@ build_script:
 - dnvm upgrade
 - dnu restore
 
+test:
+  assemblies:
+    - BCRS.Tests\bin\Debug\BCRS.Tests.dll
