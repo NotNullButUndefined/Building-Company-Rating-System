@@ -37,3 +37,5 @@ D:\Education\3 course\itera\git\BCRS.Tests\bin\Debug\System.Web.WebPages.Deploym
 D:\Education\3 course\itera\git\BCRS.Tests\obj\Debug\BCRS.Tests.csprojResolveAssemblyReference.cache
 D:\Education\3 course\itera\git\BCRS.Tests\obj\Debug\BCRS.Tests.dll
 D:\Education\3 course\itera\git\BCRS.Tests\obj\Debug\BCRS.Tests.pdb
+D:\Education\3 course\itera\git\BCRS.Tests\bin\Debug\EntityFramework.dll
+D:\Education\3 course\itera\git\BCRS.Tests\bin\Debug\EntityFramework.xml
