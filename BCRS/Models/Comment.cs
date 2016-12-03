@@ -11,7 +11,7 @@ namespace BCRS.Models
         [Required]
         public int Id { get; set; }
 
-        public string Title { get; set; }
+        public sting Title { get; set; }
 
         [Required]
         public string Text { get; set; }
