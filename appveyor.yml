@@ -7,5 +7,3 @@ build_script:
 artifacts:
 - path: /AppOutput
   name: AppOutput
-test_script:
-- dnx.exe C:\projects\building-company-rating-system-new\BCRS.Tests\project.json test -parallel none
