@@ -3,10 +3,3 @@ os: Visual Studio 2015 RC
 build_script:
 - dnvm upgrade
 - dnu restore
-
-test:
-  assemblies:
-    - BCRS.Tests\bin\Debug\BCRS.Tests.dll
-
-test_script:
-- MSTest(BCRS.Tests)
