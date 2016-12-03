@@ -49,3 +49,4 @@ D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.users.resources
 D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.company.resources
 D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.building.resources
 D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.rating.resources
+D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.comment.resources

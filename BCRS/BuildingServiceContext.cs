@@ -23,7 +23,7 @@ namespace BCRS
             modelBuilder.Configurations.Add(new EntityTypeConfiguration<Company>());
             modelBuilder.Configurations.Add(new EntityTypeConfiguration<Building>());
             modelBuilder.Configurations.Add(new EntityTypeConfiguration<Rating>());
-            //modelBuilder.Configurations.Add(new EntityTypeConfiguration<Comment>());
+            modelBuilder.Configurations.Add(new EntityTypeConfiguration<Comment>());
         }
     }
 }
