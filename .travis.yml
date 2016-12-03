@@ -1,8 +1,9 @@
 ## Travis CI Integration
 
-language: c
-
+language: csharp
+solution: BCRS.sln
+mono: latest
 install:
-  - sudo apt-get update && sudo apt-get install mono-devel mono-gmcs nunit-console
-script:
-  - xbuild BCRS.sln
+  - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
+  - dnvm upgrade
+  - dnu restore
