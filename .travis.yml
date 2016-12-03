@@ -7,4 +7,3 @@ install:
   - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
   - dnvm upgrade
   - dnu restore
-  - nuget restore "..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props"
