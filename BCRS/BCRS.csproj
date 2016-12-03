@@ -124,6 +124,10 @@
     <Compile Include="Migrations\201612031807018_roles.Designer.cs">
       <DependentUpon>201612031807018_roles.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612031858095_users.cs" />
+    <Compile Include="Migrations\201612031858095_users.Designer.cs">
+      <DependentUpon>201612031858095_users.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Building.cs" />
     <Compile Include="Models\Comment.cs" />
@@ -150,6 +154,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201612031807018_roles.resx">
       <DependentUpon>201612031807018_roles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612031858095_users.resx">
+      <DependentUpon>201612031858095_users.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

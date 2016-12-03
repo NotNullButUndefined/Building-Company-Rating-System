@@ -19,7 +19,7 @@ namespace BCRS
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new EntityTypeConfiguration<Role>());
-            //modelBuilder.Configurations.Add(new EntityTypeConfiguration<User>());
+            modelBuilder.Configurations.Add(new EntityTypeConfiguration<User>());
             //modelBuilder.Configurations.Add(new EntityTypeConfiguration<Company>());
             //modelBuilder.Configurations.Add(new EntityTypeConfiguration<Building>());
             //modelBuilder.Configurations.Add(new EntityTypeConfiguration<Rating>());
