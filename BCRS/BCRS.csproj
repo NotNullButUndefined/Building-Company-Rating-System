@@ -136,6 +136,10 @@
     <Compile Include="Migrations\201612031902448_building.Designer.cs">
       <DependentUpon>201612031902448_building.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612031903568_rating.cs" />
+    <Compile Include="Migrations\201612031903568_rating.Designer.cs">
+      <DependentUpon>201612031903568_rating.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Building.cs" />
     <Compile Include="Models\Comment.cs" />
@@ -171,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612031902448_building.resx">
       <DependentUpon>201612031902448_building.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612031903568_rating.resx">
+      <DependentUpon>201612031903568_rating.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
