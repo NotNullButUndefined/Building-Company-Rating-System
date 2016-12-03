@@ -7,3 +7,6 @@ build_script:
 test:
   assemblies:
     - BCRS.Tests\bin\Debug\BCRS.Tests.dll
+
+test_script:
+  vstest.console /logger:Appveyor BCRS.Tests\bin\Debug\BCRS.Tests.dll
