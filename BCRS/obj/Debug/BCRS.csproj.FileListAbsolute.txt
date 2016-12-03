@@ -47,3 +47,4 @@ D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.csproj.GenerateResource.Cach
 D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.csprojResolveAssemblyReference.cache
 D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.users.resources
 D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.company.resources
+D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.building.resources
