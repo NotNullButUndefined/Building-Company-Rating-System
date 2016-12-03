@@ -36,7 +36,6 @@ D:\Education\3 course\itera\git\BCRS\bin\Newtonsoft.Json.xml
 D:\Education\3 course\itera\git\BCRS\bin\System.Net.Http.Formatting.xml
 D:\Education\3 course\itera\git\BCRS\bin\System.Web.Http.xml
 D:\Education\3 course\itera\git\BCRS\bin\System.Web.Http.WebHost.xml
-D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.csprojResolveAssemblyReference.cache
 D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.dll
 D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.pdb
 D:\Education\3 course\itera\git\BCRS\bin\EntityFramework.dll
