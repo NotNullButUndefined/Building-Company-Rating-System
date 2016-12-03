@@ -1,9 +1,9 @@
 ## Travis CI Integration
 
 language: csharp
-solution: solution-name.sln
+solution: BCRS.sln
+mono: latest
 install:
-  - sudo apt-get install -y gtk-sharp2
-  - nuget restore BCRS.sln
-script:
-  - xbuild BCRS.sln
+  - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
+  - dnvm upgrade
+  - dnu restore
