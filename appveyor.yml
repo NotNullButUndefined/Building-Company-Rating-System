@@ -9,4 +9,4 @@ test:
     - BCRS.Tests\bin\Debug\BCRS.Tests.dll
 
 test_script:
-  vstest.console /logger:Appveyor BCRS.Tests\bin\Debug\BCRS.Tests.dll
+  vstest.console /logger:Appveyor .\BCRS.Tests\bin\Debug\BCRS.Tests.dll
