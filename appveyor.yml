@@ -1,8 +1,8 @@
 version: 1.0.{build}
-before_build:
-  - dnvm upgrade
-  - dnu restore
-build:
-  project: BCRS.sln 
-
-  
+os: Visual Studio 2015 RC
+build_script:
+- dnvm upgrade
+- dnu restore
+artifacts:
+- path: /AppOutput
+  name: AppOutput
