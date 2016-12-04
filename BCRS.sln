@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCRS", "BCRS\BCRS.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCRS.Tests", "BCRS.Tests\BCRS.Tests.csproj", "{3671B0AF-1230-4C05-84C3-A9A0BA1DF408}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{4C2D5ED2-589A-4DDA-ACE6-BF871B327B55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3671B0AF-1230-4C05-84C3-A9A0BA1DF408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3671B0AF-1230-4C05-84C3-A9A0BA1DF408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3671B0AF-1230-4C05-84C3-A9A0BA1DF408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2D5ED2-589A-4DDA-ACE6-BF871B327B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2D5ED2-589A-4DDA-ACE6-BF871B327B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2D5ED2-589A-4DDA-ACE6-BF871B327B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2D5ED2-589A-4DDA-ACE6-BF871B327B55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

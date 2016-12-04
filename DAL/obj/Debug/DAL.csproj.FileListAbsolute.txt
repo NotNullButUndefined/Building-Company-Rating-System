@@ -1,0 +1,17 @@
+D:\Education\3 course\itera\Building Company Rating System\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Education\3 course\itera\Building Company Rating System\DAL\obj\Debug\BCRS.Migrations.roles.resources
+D:\Education\3 course\itera\Building Company Rating System\DAL\obj\Debug\BCRS.Migrations.users.resources
+D:\Education\3 course\itera\Building Company Rating System\DAL\obj\Debug\BCRS.Migrations.company.resources
+D:\Education\3 course\itera\Building Company Rating System\DAL\obj\Debug\BCRS.Migrations.building.resources
+D:\Education\3 course\itera\Building Company Rating System\DAL\obj\Debug\BCRS.Migrations.rating.resources
+D:\Education\3 course\itera\Building Company Rating System\DAL\obj\Debug\BCRS.Migrations.comment.resources
+D:\Education\3 course\itera\Building Company Rating System\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+D:\Education\3 course\itera\Building Company Rating System\DAL\bin\Debug\DAL.dll.config
+D:\Education\3 course\itera\Building Company Rating System\DAL\bin\Debug\DAL.dll
+D:\Education\3 course\itera\Building Company Rating System\DAL\bin\Debug\DAL.pdb
+D:\Education\3 course\itera\Building Company Rating System\DAL\bin\Debug\EntityFramework.dll
+D:\Education\3 course\itera\Building Company Rating System\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Education\3 course\itera\Building Company Rating System\DAL\bin\Debug\EntityFramework.xml
+D:\Education\3 course\itera\Building Company Rating System\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Education\3 course\itera\Building Company Rating System\DAL\obj\Debug\DAL.dll
+D:\Education\3 course\itera\Building Company Rating System\DAL\obj\Debug\DAL.pdb
