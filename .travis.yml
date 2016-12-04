@@ -1,9 +1,0 @@
-## Travis CI Integration
-
-language: csharp
-solution: BCRS.sln
-mono: latest
-install:
-  - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
-  - dnvm upgrade
-  - dnu restore
