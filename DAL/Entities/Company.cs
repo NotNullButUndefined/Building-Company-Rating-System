@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -7,7 +8,7 @@ using System.Web;
 
 namespace BCRS.Models
 {
-    public class Company
+    public class Company : IIdentifiable
     {
         [Required]
         public int Id { get; set; }
