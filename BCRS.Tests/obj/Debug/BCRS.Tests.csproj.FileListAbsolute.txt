@@ -78,3 +78,47 @@ D:\Education\3 course\itera\Building Company Rating System\BCRS.Tests\bin\Debug\
 D:\Education\3 course\itera\Building Company Rating System\BCRS.Tests\obj\Debug\BCRS.Tests.csprojResolveAssemblyReference.cache
 D:\Education\3 course\itera\Building Company Rating System\BCRS.Tests\obj\Debug\BCRS.Tests.dll
 D:\Education\3 course\itera\Building Company Rating System\BCRS.Tests\obj\Debug\BCRS.Tests.pdb
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\BCRS.Tests.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\BCRS.Tests.pdb
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\BCRS.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\BCRS.pdb
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\obj\Debug\BCRS.Tests.csprojResolveAssemblyReference.cache
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\obj\Debug\BCRS.Tests.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\obj\Debug\BCRS.Tests.pdb
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\BCRS.Tests.dll.config
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\WebGrease.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS.Tests\bin\Debug\System.Web.Optimization.xml

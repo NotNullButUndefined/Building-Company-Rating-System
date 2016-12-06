@@ -15,3 +15,28 @@ D:\Education\3 course\itera\Building Company Rating System\DAL\bin\Debug\EntityF
 D:\Education\3 course\itera\Building Company Rating System\DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Education\3 course\itera\Building Company Rating System\DAL\obj\Debug\DAL.dll
 D:\Education\3 course\itera\Building Company Rating System\DAL\obj\Debug\DAL.pdb
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\DAL.dll.config
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\DAL.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\DAL.pdb
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\EntityFramework.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\EntityFramework.xml
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\obj\Debug\BCRS.Migrations.roles.resources
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\obj\Debug\BCRS.Migrations.users.resources
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\obj\Debug\BCRS.Migrations.company.resources
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\obj\Debug\BCRS.Migrations.building.resources
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\obj\Debug\BCRS.Migrations.rating.resources
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\obj\Debug\BCRS.Migrations.comment.resources
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\obj\Debug\DAL.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\obj\Debug\DAL.pdb
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\Antlr3.Runtime.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\System.Web.Optimization.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\WebGrease.dll
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pc\Source\Repos\Building-Company-Rating-System3\DAL\bin\Debug\System.Web.Optimization.xml
