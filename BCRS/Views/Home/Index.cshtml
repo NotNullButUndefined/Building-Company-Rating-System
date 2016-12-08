@@ -1,13 +1,15 @@
-﻿@using System.Web.Optimization
-<html>
+﻿<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    @Styles.Render("~/bundles/css")
+    @Styles.Render(BCRS.Constants.StyleBandleHome);
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Sumana" rel="stylesheet">
+   
+    <!--//System.Web.Optimization.Styles.Render("~/Content/css");-->
+  
 </head>
 <body>
     <div class="cover">
@@ -21,7 +23,7 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="" href="#"> <img class="logo" src="../../App_Data/logo.png"></a>
+                    <a class="" href="#"> <img class="logo" src="~/Content/pictures/logo.png" width="100" height="113"></a>
                     <a class="navbar-brand" href="#"><span>B.C.R.S</span></a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-ex-collapse">
@@ -258,6 +260,7 @@
                                 </div>
                             </div>
                             <div class="row">
+                                <!--Add list here-->
                                 <div class="col-md-4">
                                     <a><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
                                     <h3>A title</h3>

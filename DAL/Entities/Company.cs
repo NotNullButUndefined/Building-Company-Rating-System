@@ -12,6 +12,9 @@ namespace BCRS.Models
     {
         [Required]
         public int Id { get; set; }
+        
+        //[DataType(DataType.ImageUrl)]
+        public String logo { get; set; }
 
         [Required]
         public string Name { get; set; }

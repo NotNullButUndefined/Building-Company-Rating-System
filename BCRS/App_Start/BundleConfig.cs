@@ -15,7 +15,6 @@ namespace BCRS.App_Start
             bundles.Add(new StyleBundle("~/bundles/css").Include("~/Content/styles/itera.css",
                                                                   "~/Content/styles/searchStyles.css",
                                                                    "~/Content/styles/font-awesome.min.css"));
-
         }
     }
     }
