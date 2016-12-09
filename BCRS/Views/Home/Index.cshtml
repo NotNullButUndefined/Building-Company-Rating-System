@@ -1,4 +1,6 @@
-﻿<html>
+﻿
+<!--@Model IEnumerable <dal.entities.company> -->
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -260,38 +262,19 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <!--Add list here-->
-                                <div class="col-md-4">
-                                    <a><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
-                                    <h3>A title</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <a><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
-                                    <h2>A title</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <a><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
-                                    <h2>A ttile</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <a><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
-                                    <h3>A title</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <a><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
-                                    <h3>A title</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <a><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
-                                    <h2>A title</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
+                                
+                                <div class="row">
+
+                                    @foreach (BCRS.Models.Company comp in Model)
+                                    {
+                                        <div class="col-md-4">
+
+                                            <a><img src=@comp.logo class="img-responsive" width="300"></a>
+                                            <h3>@comp.Name</h3>
+
+
+                                        </div>
+                                    }
                                 </div>
                             </div>
                         </div>

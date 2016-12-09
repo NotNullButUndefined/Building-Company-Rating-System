@@ -16,8 +16,10 @@ namespace BCRS.Controllers
         // GET: /Home/
         public ActionResult Index()
         {
-           
-            return View();
+
+            IRepository<Company> repos = new Repository<Company>();
+            Company[] arr = repos.GetAll();
+            return View(arr.OfType<Company>().ToList());
         }
 	}
 }
