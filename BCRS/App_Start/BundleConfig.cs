@@ -8,8 +8,6 @@ namespace BCRS.App_Start
 {
     public class BundleConfig
     {
-
-    
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new StyleBundle("~/bundles/css").Include("~/Content/styles/itera.css",
@@ -17,4 +15,4 @@ namespace BCRS.App_Start
                                                                    "~/Content/styles/font-awesome.min.css"));
         }
     }
-    }
+}

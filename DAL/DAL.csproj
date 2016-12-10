@@ -98,10 +98,18 @@
     <Compile Include="Migrations\201612031905243_comment.Designer.cs">
       <DependentUpon>201612031905243_comment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612101202379_user-remember-me.cs" />
+    <Compile Include="Migrations\201612101202379_user-remember-me.Designer.cs">
+      <DependentUpon>201612101202379_user-remember-me.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
+    <Compile Include="Repositories\User\IUserRepository.cs" />
+    <Compile Include="Repositories\User\UserRepository.cs" />
+    <Compile Include="Services\User\IUserService.cs" />
+    <Compile Include="Services\User\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201612031807018_roles.resx">
@@ -121,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612031905243_comment.resx">
       <DependentUpon>201612031905243_comment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612101202379_user-remember-me.resx">
+      <DependentUpon>201612101202379_user-remember-me.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

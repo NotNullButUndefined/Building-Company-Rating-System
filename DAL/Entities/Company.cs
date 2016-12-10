@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace BCRS.Models
+namespace DAL.Entities
 {
     public class Company : IIdentifiable
     {

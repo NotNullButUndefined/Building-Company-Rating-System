@@ -6,11 +6,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace BCRS.Models
+namespace DAL.Entities
 {
     public class User : IIdentifiable
     {
-
         [Required]
         public int Id { get; set; }
 
@@ -33,5 +32,7 @@ namespace BCRS.Models
 
         [ForeignKey("RoleId")]
         public Role Role { get; set; }
+
+        public bool RememberMe { get; set; }
     }
 }

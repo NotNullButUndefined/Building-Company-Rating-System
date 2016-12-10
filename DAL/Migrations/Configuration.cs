@@ -1,5 +1,6 @@
 namespace BCRS.Migrations
 {
+    using DAL.Entities;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -14,20 +15,13 @@ namespace BCRS.Migrations
 
         protected override void Seed(BCRS.BuildingServiceContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
-
-            
+            context.Set<Role>().AddOrUpdate(
+                new Role { Id = 1, Name = "Admin"},
+                new Role { Id = 2, Name = "User"}
+            );
+            context.Set<User>().AddOrUpdate(
+                new User { Id = 1, Email = "admin", Password = "admin", Name = "admin", RoleId = 1, Surname = "admin" }
+            );
         }
     }
 }

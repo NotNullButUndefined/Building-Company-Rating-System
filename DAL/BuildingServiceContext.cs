@@ -1,5 +1,5 @@
 ﻿using BCRS.Migrations;
-using BCRS.Models;
+using DAL.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

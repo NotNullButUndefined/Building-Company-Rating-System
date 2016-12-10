@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace BCRS.Models
+namespace DAL.Entities
 {
     public class Rating : IIdentifiable
     { 
