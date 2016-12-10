@@ -20,7 +20,7 @@ namespace BCRS
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            Startup.RegisterAllControllersFactories();
+            ControllersFactoriesConfig.RegisterAllControllersFactories();
         }
     }
 }

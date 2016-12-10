@@ -1,22 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+using Owin;
+using Microsoft.Owin;
+using Microsoft.Owin.Security.Cookies;
+using Microsoft.AspNet.Identity;
+
+[assembly: OwinStartup(typeof(BCRS.App_Start.Startup))]
 
 namespace BCRS.App_Start
 {
-    public class Startup 
+    public class Startup
     {
-        public static void RegisterAllControllersFactories()
+        public void Configuration(IAppBuilder app)
         {
-            RegisterAccountControllerFactory();
+            app.UseStaticFiles();
+            SetAuth(app);
         }
 
-        private static void RegisterAccountControllerFactory()
+        private void SetAuth(IAppBuilder app)
         {
-            IControllerFactory factory = new AccountControllerFactory();
-            ControllerBuilder.Current.SetControllerFactory(factory);
+            app.UseCookieAuthentication(new CookieAuthenticationOptions()
+            {
+                AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
+                AuthenticationMode = Microsoft.Owin.Security.AuthenticationMode.Active,
+                CookieName = "LOGIN",
+                LoginPath = new PathString("/Account/Login"),
+                ExpireTimeSpan = TimeSpan.FromHours(1)
+            });
         }
     }
 }

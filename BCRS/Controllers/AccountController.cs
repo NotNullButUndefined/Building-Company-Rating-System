@@ -38,7 +38,7 @@ namespace BCRS.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Login(LoginDto user, string returnUrl)
+        public ActionResult Login(LoginDto user, string returnUrl)
         {
             if (ModelState.IsValid)
             {

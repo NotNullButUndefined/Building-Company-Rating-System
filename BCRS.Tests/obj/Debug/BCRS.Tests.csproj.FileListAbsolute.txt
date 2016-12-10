@@ -172,3 +172,14 @@ C:\myProj\BCRS\BCRS.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\myProj\BCRS\BCRS.Tests\obj\Debug\BCRS.Tests.csprojResolveAssemblyReference.cache
 C:\myProj\BCRS\BCRS.Tests\obj\Debug\BCRS.Tests.dll
 C:\myProj\BCRS\BCRS.Tests\obj\Debug\BCRS.Tests.pdb
+C:\myProj\BCRS\BCRS.Tests\bin\Debug\Microsoft.Owin.dll
+C:\myProj\BCRS\BCRS.Tests\bin\Debug\Owin.dll
+C:\myProj\BCRS\BCRS.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\myProj\BCRS\BCRS.Tests\bin\Debug\Microsoft.Owin.StaticFiles.dll
+C:\myProj\BCRS\BCRS.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\myProj\BCRS\BCRS.Tests\bin\Debug\Microsoft.Owin.FileSystems.dll
+C:\myProj\BCRS\BCRS.Tests\bin\Debug\Microsoft.Owin.xml
+C:\myProj\BCRS\BCRS.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\myProj\BCRS\BCRS.Tests\bin\Debug\Microsoft.Owin.StaticFiles.xml
+C:\myProj\BCRS\BCRS.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\myProj\BCRS\BCRS.Tests\bin\Debug\Microsoft.Owin.FileSystems.xml

@@ -1,4 +1,4 @@
-/*
+﻿/*
 Theme Name: Javo House
 Theme URI: http://javothemes.com/house
 Author: Javo
@@ -17,8 +17,8 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 html, body{ font:10pt/1.2em 'Open Sans'; height:100%; min-height:100%; }
 body{ overflow-y:scroll; }
 img{ border:none; }
-a{ text-decoration:none; color:#454545;}
-a:hover{ text-decoration:none; color:#3399ff; }
+a{ text-decoration:none; }
+a:hover{ text-decoration:none;  }
 html, body, h1, h2, h3, h4, h5, h6 { color:#646464; font-family:'Open Sans'; }
 h1, h2, h3, h4, h5, h6 { font-size:14px;}
 label{ font-weight: 100; }
@@ -65,7 +65,7 @@ ul{ margin-left:0; padding-left:0; }
 .default-header-title{background:#ddd; height:86px;}
 .default-header-title h1{ color:#424242; text-transform:capitalize; }
 .default-header-title h3{ color:#424242; text-transform:capitalize; }
-.form-control {border-radius: 0px;}
+.form-control {border-radius: 4px;}
 .top-menu {color:#fff;}
 
 /** head type a **/
@@ -208,11 +208,10 @@ footer.footer-wrap:before{
 .btn-success.active,
 .open .dropdown-toggle.btn-success{
 	color: #fff;
-	background-color: #777;
-	border-color: #666;
+	
 }
 
-.btn-success{ color:#fff; background-color:#aaa; border-color: #bbb;}
+.btn-success{ }
 
 /** fancy style **/
 #blog-fancy .blog-fancy-wrap {padding:20px 0 0 5px;}
@@ -1597,16 +1596,10 @@ text-transform: capitalize !important;
 	border:0px;
 }
 
-.navbar-toggle { background-color:#111; }
-.navbar-toggle .icon-bar { border:1px solid #fff; }
-#header-line .navbar-nav>li>a { padding-top: 27px; padding-bottom: 30px; }
-#header-line .navbar-brand {
-	/* padding: 22px; */
-	padding: 18px 10px 0 0;
-}
+
 
 .navbar-line .nav .open>a, .navbar-line .nav .open>a:hover, .navbar-line .nav .open>a:focus {
-	background-color: #fff;
+	
 	border-color: #428bca;
 }
 
@@ -2478,16 +2471,7 @@ display: inline-block;
 
 
 /** navi default style **/
-.navbar-nav>li>.dropdown-menu {background-color: #edebeb;}
-.navbar-nav>li>.dropdown-menu li {border-bottom:1px solid #ddd;}
-.navbar-nav > li > a {border-top:3px solid #fff;}
-.navbar-nav>li>.dropdown-menu, .navbar-nav > li > a:hover {border-top:3px solid #0192C8;} /* this color will be changed from setting accent color */
-.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {color: #0192C8; background-color: #fff; }
-.dropdown-menu>li>a {padding:10px 20px;}
-.dropdown-menu {padding:0;}
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {background: #f4f4f4;}
-.caret {display:none;}
-.dropdown-menu>.active>a {color:#454545;}
+
 
 
 
@@ -2541,8 +2525,8 @@ border-color: #adadad;
 .btn.btn-rectangle{ border-radius:0px; -webkit-border-radius:0px; }
 .javo-advanced-search{ display:none; }
 .btn.btn-green{ background:#8B8B8B; color:#fff; }
-.btn.btn-darkgreen{ background:#35C7FF; color:#fff; }
-.btn.btn-darkgreen.active{ background:#0098D3; color:#fff; }
+.btn.btn-darkgreen{ background:#4cbc4a; color:#fff; }
+.btn.btn-darkgreen.active{ background:#4cbc4a; color:#fff; }
 .javo-sc-thumb-box{ position:relative; }
 .sns-facebook,.sns-twitter{ cursor:pointer; }
 #frm_property .well-sm{ padding: 6px; }
