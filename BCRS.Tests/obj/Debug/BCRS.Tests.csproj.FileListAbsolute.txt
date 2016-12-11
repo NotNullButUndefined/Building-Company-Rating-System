@@ -246,3 +246,5 @@ D:\Education\3 course\itera\BCRS\BCRS.Tests\bin\Debug\System.Web.WebPages.Razor.
 D:\Education\3 course\itera\BCRS\BCRS.Tests\bin\Debug\System.Web.WebPages.xml
 D:\Education\3 course\itera\BCRS\BCRS.Tests\bin\Debug\Microsoft.Owin.FileSystems.xml
 D:\Education\3 course\itera\BCRS\BCRS.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Education\3 course\itera\BCRS\BCRS.Tests\bin\Debug\System.Web.Helpers.dll
+D:\Education\3 course\itera\BCRS\BCRS.Tests\bin\Debug\System.Web.Helpers.xml

@@ -13,13 +13,13 @@ namespace BCRS.Tests.ServicesTests
     public class UserServiceTests
     {
         IUserService _userService;
-        Mock<IUserRepository> _userRepo;
+        Mock<IUserRepository> _mockUserRepo;
         User _user;
 
         public UserServiceTests()
         {
-            _userRepo = new Mock<IUserRepository>();
-            _userService = new UserService(_userRepo.Object);
+            _mockUserRepo = new Mock<IUserRepository>();
+            _userService = new UserService(_mockUserRepo.Object);
             _user = new User { Id = 0, Name = "name", Email = "email", Password = "password", RoleId = 1, Surname = "surname" };
         }
 
@@ -28,7 +28,7 @@ namespace BCRS.Tests.ServicesTests
         public void TryLoginShouldReturnTrueIfUserWithSuchEmailAndPasswordExists()
         {
             //arrange
-            _userRepo.Setup(u => u.GetByEmail(It.IsAny<string>(),
+            _mockUserRepo.Setup(u => u.GetByEmail(It.IsAny<string>(),
                                               It.IsAny<string>()))
                                                                   .Returns(_user);
             //act
@@ -44,7 +44,7 @@ namespace BCRS.Tests.ServicesTests
         {
             //arrange
             User us = null;
-            _userRepo.Setup(u => u.GetByEmail(It.IsAny<string>(),
+            _mockUserRepo.Setup(u => u.GetByEmail(It.IsAny<string>(),
                                               It.IsAny<string>()))
                                                                   .Returns(us);
             //act

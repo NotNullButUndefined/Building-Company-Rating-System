@@ -11,13 +11,29 @@ using System.Web.Security;
 
 namespace BCRS.Controllers
 {
+    public interface ICookie
+    {
+        void SetCookie(string userName, bool remember);
+    }
+
+    public class Cookie : ICookie
+    {
+        public void SetCookie(string userName, bool remember)
+        {
+            FormsAuthentication.SetAuthCookie(userName, remember);
+        }
+    }
+
     public class AccountController : Controller
     {
         IUserService _userService;
+        ICookie _cookie;
 
-        public AccountController(IUserService userService)
+        public AccountController(IUserService userService,
+                                 ICookie cookie)
         {
             _userService = userService;
+            _cookie = cookie;
         }
 
         public AccountController()
@@ -46,12 +62,12 @@ namespace BCRS.Controllers
 
                 if (loginResult)
                 {
-                    FormsAuthentication.SetAuthCookie(user.Email, user.RememberMe);
+                    _cookie.SetCookie(user.Email, user.RememberMe);
                     return View("UserPage");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Login data is incorrect!");
+                    ModelState.AddModelError("incorrect login", "Login data is incorrect!");
                 }
             }
             return View(user);
