@@ -117,3 +117,29 @@ D:\Education\3 course\itera\BCRS\DAL\bin\Debug\EntityFramework.xml
 D:\Education\3 course\itera\BCRS\DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Education\3 course\itera\BCRS\DAL\bin\Debug\Newtonsoft.Json.xml
 D:\Education\3 course\itera\BCRS\DAL\bin\Debug\System.Web.Optimization.xml
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\DAL.dll.config
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\DAL.dll
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\DAL.pdb
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\System.Web.Optimization.dll
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\WebGrease.dll
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\bin\Debug\System.Web.Optimization.xml
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\obj\Debug\BCRS.Migrations.roles.resources
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\obj\Debug\BCRS.Migrations.users.resources
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\obj\Debug\BCRS.Migrations.company.resources
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\obj\Debug\BCRS.Migrations.building.resources
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\obj\Debug\BCRS.Migrations.rating.resources
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\obj\Debug\BCRS.Migrations.comment.resources
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\obj\Debug\BCRS.Migrations.userrememberme.resources
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\obj\Debug\DAL.dll
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\obj\Debug\DAL.pdb
+C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

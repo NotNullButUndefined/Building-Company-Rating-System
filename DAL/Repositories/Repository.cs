@@ -22,6 +22,9 @@ namespace DAL.Repositories
     public class Repository<TEntity> : IRepository<TEntity>
         where TEntity : class, IIdentifiable
     {
+
+       
+
         public void Add(TEntity entity)
         {
             using (BuildingServiceContext context = new BuildingServiceContext())

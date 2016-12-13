@@ -25,5 +25,9 @@ namespace BCRS
             modelBuilder.Configurations.Add(new EntityTypeConfiguration<Rating>());
             modelBuilder.Configurations.Add(new EntityTypeConfiguration<Comment>());
         }
+
+        public System.Data.Entity.DbSet<DAL.Entities.User> Users { get; set; }
+
+        public System.Data.Entity.DbSet<DAL.Entities.Role> Roles { get; set; }
     }
 }

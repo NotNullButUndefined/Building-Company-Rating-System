@@ -1,0 +1,63 @@
+﻿@model DAL.Entities.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+
+
+<div class="section">
+    <div class="container">
+        @using (Html.BeginForm("Register", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "Login failed. Check your login details.")
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Register</h1>
+                </div>
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="form-group">
+                        <div class="input-group">
+                         @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="form-group">
+                        <div class="input-group">
+                            @Html.TextBoxFor(m => m.Surname, new { @class = "form-control" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <h4>Please, enter your real e-mail</h4>
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <h4>Password max - 20 characters</h4>
+                            @Html.TextBoxFor(m => m.Password, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <input type="submit" value="OK" class="btn btn-success" />
+                    <h5 class="text-center">Already joined? <a>Sign in</a></h5>
+                </div>
+            </div>
+        }
+    </div>
+</div>
