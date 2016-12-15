@@ -29,15 +29,29 @@ namespace BCRS.Controllers
         {
             reposCompany = new Repository<Company>();
             Company[] arr = reposCompany.GetAll();
-            return View(arr.OfType<Company>().ToList());
+            return View(Sorting(arr.OfType<Company>().ToList()));
         }
 
-        
-        public ActionResult Buildings()
+        private IEnumerable<Company> Sorting(IEnumerable<Company> list)
         {
-            reposBuilding = new Repository<Building>();
+            return list.OrderBy(s => s.Name);  
+        }
+
+        private IEnumerable<Building> Sorting(IEnumerable<Building> list)
+        {
+            return list.OrderBy(s => s.Name);
+        }
+
+        public ActionResult Buildings(int CompanyId)
+        {
+            //Change?
+            List<Building> listBuild = new List<Building>();
             Building[] arr = reposBuilding.GetAll();
-            return View(arr.OfType<Company>().ToList());
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i].CompanyId == CompanyId) listBuild.Add(arr[i]);
+            }
+                return View(listBuild);
         }
 	}
 }

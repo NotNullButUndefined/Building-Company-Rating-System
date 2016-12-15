@@ -95,7 +95,6 @@ C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-Syst
 C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.dll
 C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.OAuth.dll
 C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.StaticFiles.dll
-C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Newtonsoft.Json.dll
 C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Owin.dll
 C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Net.Http.Formatting.dll
