@@ -1,7 +1,7 @@
 ﻿@model DAL.Entities.User
 
 @{
-    Layout = null;
+    Layout = "~/Views/Layouts/Layout.cshtml";
 }
 
 <!DOCTYPE html>
@@ -9,6 +9,7 @@
 
 
 <div class="section">
+   @Styles.Render(BCRS.Constants.StyleBandleHome)
     <div class="container">
         @using (Html.BeginForm("Register", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post))
         {

@@ -1,402 +1,138 @@
-D:\Education\3 course\itera\git\BCRS\bin\roslyn\csc.exe
-D:\Education\3 course\itera\git\BCRS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\Education\3 course\itera\git\BCRS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\Education\3 course\itera\git\BCRS\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\Education\3 course\itera\git\BCRS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\Education\3 course\itera\git\BCRS\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\Education\3 course\itera\git\BCRS\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\Education\3 course\itera\git\BCRS\bin\roslyn\System.Collections.Immutable.dll
-D:\Education\3 course\itera\git\BCRS\bin\roslyn\System.Reflection.Metadata.dll
-D:\Education\3 course\itera\git\BCRS\bin\roslyn\vbc.exe
-D:\Education\3 course\itera\git\BCRS\bin\roslyn\VBCSCompiler.exe
-D:\Education\3 course\itera\git\BCRS\bin\roslyn\VBCSCompiler.exe.config
-D:\Education\3 course\itera\git\BCRS\bin\BCRS.dll.config
-D:\Education\3 course\itera\git\BCRS\bin\BCRS.dll
-D:\Education\3 course\itera\git\BCRS\bin\BCRS.pdb
-D:\Education\3 course\itera\git\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\Education\3 course\itera\git\BCRS\bin\Microsoft.Web.Infrastructure.dll
-D:\Education\3 course\itera\git\BCRS\bin\Newtonsoft.Json.dll
-D:\Education\3 course\itera\git\BCRS\bin\System.Net.Http.Formatting.dll
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Helpers.dll
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Http.dll
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Http.WebHost.dll
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Mvc.dll
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Razor.dll
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Webpages.Deployment.dll
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Webpages.dll
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Webpages.Razor.dll
-D:\Education\3 course\itera\git\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Razor.xml
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Webpages.xml
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Webpages.Deployment.xml
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Webpages.Razor.xml
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Helpers.xml
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Mvc.xml
-D:\Education\3 course\itera\git\BCRS\bin\Newtonsoft.Json.xml
-D:\Education\3 course\itera\git\BCRS\bin\System.Net.Http.Formatting.xml
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Http.xml
-D:\Education\3 course\itera\git\BCRS\bin\System.Web.Http.WebHost.xml
-D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.dll
-D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.pdb
-D:\Education\3 course\itera\git\BCRS\bin\EntityFramework.dll
-D:\Education\3 course\itera\git\BCRS\bin\EntityFramework.SqlServer.dll
-D:\Education\3 course\itera\git\BCRS\bin\EntityFramework.xml
-D:\Education\3 course\itera\git\BCRS\bin\EntityFramework.SqlServer.xml
-D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.roles.resources
-D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.csproj.GenerateResource.Cache
-D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.csprojResolveAssemblyReference.cache
-D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.users.resources
-D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.company.resources
-D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.building.resources
-D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.rating.resources
-D:\Education\3 course\itera\git\BCRS\obj\Debug\BCRS.Migrations.comment.resources
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\roslyn\csc.exe
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\roslyn\System.Collections.Immutable.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\roslyn\System.Reflection.Metadata.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\roslyn\vbc.exe
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\roslyn\VBCSCompiler.exe
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\roslyn\VBCSCompiler.exe.config
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\BCRS.dll.config
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\BCRS.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\BCRS.pdb
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\Microsoft.Web.Infrastructure.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\Newtonsoft.Json.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Net.Http.Formatting.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Helpers.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Http.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Http.WebHost.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Mvc.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Razor.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Webpages.Deployment.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Webpages.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Webpages.Razor.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Razor.xml
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Webpages.xml
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Webpages.Deployment.xml
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Webpages.Razor.xml
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Helpers.xml
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Mvc.xml
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\Newtonsoft.Json.xml
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Net.Http.Formatting.xml
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Http.xml
-D:\Education\3 course\itera\Building Company Rating System\BCRS\bin\System.Web.Http.WebHost.xml
-D:\Education\3 course\itera\Building Company Rating System\BCRS\obj\Debug\BCRS.csprojResolveAssemblyReference.cache
-D:\Education\3 course\itera\Building Company Rating System\BCRS\obj\Debug\BCRS.dll
-D:\Education\3 course\itera\Building Company Rating System\BCRS\obj\Debug\BCRS.pdb
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\obj\Debug\BCRS.csprojResolveAssemblyReference.cache
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\obj\Debug\BCRS.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\obj\Debug\BCRS.pdb
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\roslyn\csc.exe
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\roslyn\vbc.exe
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\roslyn\VBCSCompiler.exe
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\BCRS.dll.config
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\BCRS.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\BCRS.pdb
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\DAL.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\Newtonsoft.Json.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Net.Http.Formatting.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Helpers.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Http.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Http.WebHost.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Mvc.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Razor.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Webpages.Deployment.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Webpages.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Webpages.Razor.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\EntityFramework.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\DAL.pdb
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Razor.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Webpages.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Webpages.Deployment.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Webpages.Razor.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Helpers.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Mvc.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\Newtonsoft.Json.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Net.Http.Formatting.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Http.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Http.WebHost.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\EntityFramework.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\EntityFramework.SqlServer.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\EntityFramework.SqlServer.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\Antlr3.Runtime.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Optimization.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\WebGrease.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\Antlr3.Runtime.pdb
-C:\Users\pc\Source\Repos\Building-Company-Rating-System3\BCRS\bin\System.Web.Optimization.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\roslyn\csc.exe
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\roslyn\vbc.exe
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\roslyn\VBCSCompiler.exe
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\BCRS.dll.config
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\BCRS.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\BCRS.pdb
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\Antlr3.Runtime.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\DAL.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\EntityFramework.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\EntityFramework.SqlServer.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\Newtonsoft.Json.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Net.Http.Formatting.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Helpers.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Http.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Http.WebHost.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Mvc.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Optimization.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Razor.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Webpages.Deployment.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Webpages.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Webpages.Razor.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\WebGrease.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\DAL.pdb
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\Antlr3.Runtime.pdb
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\EntityFramework.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\EntityFramework.SqlServer.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Optimization.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Razor.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Webpages.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Webpages.Deployment.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Webpages.Razor.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Helpers.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Mvc.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\Newtonsoft.Json.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Net.Http.Formatting.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Http.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\bin\System.Web.Http.WebHost.xml
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\obj\Debug\BCRS.csprojResolveAssemblyReference.cache
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\obj\Debug\BCRS.dll
-C:\Users\pc\Source\Repos\Building-Company-Rating-System4\BCRS\obj\Debug\BCRS.pdb
-C:\myProj\BCRS\BCRS\bin\roslyn\csc.exe
-C:\myProj\BCRS\BCRS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\myProj\BCRS\BCRS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\myProj\BCRS\BCRS\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\myProj\BCRS\BCRS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\myProj\BCRS\BCRS\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\myProj\BCRS\BCRS\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\myProj\BCRS\BCRS\bin\roslyn\System.Collections.Immutable.dll
-C:\myProj\BCRS\BCRS\bin\roslyn\System.Reflection.Metadata.dll
-C:\myProj\BCRS\BCRS\bin\roslyn\vbc.exe
-C:\myProj\BCRS\BCRS\bin\roslyn\VBCSCompiler.exe
-C:\myProj\BCRS\BCRS\bin\roslyn\VBCSCompiler.exe.config
-C:\myProj\BCRS\BCRS\bin\BCRS.dll.config
-C:\myProj\BCRS\BCRS\bin\BCRS.dll
-C:\myProj\BCRS\BCRS\bin\BCRS.pdb
-C:\myProj\BCRS\BCRS\bin\Antlr3.Runtime.dll
-C:\myProj\BCRS\BCRS\bin\DAL.dll
-C:\myProj\BCRS\BCRS\bin\EntityFramework.dll
-C:\myProj\BCRS\BCRS\bin\EntityFramework.SqlServer.dll
-C:\myProj\BCRS\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\myProj\BCRS\BCRS\bin\Microsoft.Web.Infrastructure.dll
-C:\myProj\BCRS\BCRS\bin\Newtonsoft.Json.dll
-C:\myProj\BCRS\BCRS\bin\System.Net.Http.Formatting.dll
-C:\myProj\BCRS\BCRS\bin\System.Web.Helpers.dll
-C:\myProj\BCRS\BCRS\bin\System.Web.Http.dll
-C:\myProj\BCRS\BCRS\bin\System.Web.Http.WebHost.dll
-C:\myProj\BCRS\BCRS\bin\System.Web.Mvc.dll
-C:\myProj\BCRS\BCRS\bin\System.Web.Optimization.dll
-C:\myProj\BCRS\BCRS\bin\System.Web.Razor.dll
-C:\myProj\BCRS\BCRS\bin\System.Web.Webpages.Deployment.dll
-C:\myProj\BCRS\BCRS\bin\System.Web.Webpages.dll
-C:\myProj\BCRS\BCRS\bin\System.Web.Webpages.Razor.dll
-C:\myProj\BCRS\BCRS\bin\WebGrease.dll
-C:\myProj\BCRS\BCRS\bin\DAL.pdb
-C:\myProj\BCRS\BCRS\bin\Antlr3.Runtime.pdb
-C:\myProj\BCRS\BCRS\bin\EntityFramework.xml
-C:\myProj\BCRS\BCRS\bin\EntityFramework.SqlServer.xml
-C:\myProj\BCRS\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\myProj\BCRS\BCRS\bin\System.Web.Optimization.xml
-C:\myProj\BCRS\BCRS\bin\System.Web.Razor.xml
-C:\myProj\BCRS\BCRS\bin\System.Web.Webpages.xml
-C:\myProj\BCRS\BCRS\bin\System.Web.Webpages.Deployment.xml
-C:\myProj\BCRS\BCRS\bin\System.Web.Webpages.Razor.xml
-C:\myProj\BCRS\BCRS\bin\System.Web.Helpers.xml
-C:\myProj\BCRS\BCRS\bin\System.Web.Mvc.xml
-C:\myProj\BCRS\BCRS\bin\Newtonsoft.Json.xml
-C:\myProj\BCRS\BCRS\bin\System.Net.Http.Formatting.xml
-C:\myProj\BCRS\BCRS\bin\System.Web.Http.xml
-C:\myProj\BCRS\BCRS\bin\System.Web.Http.WebHost.xml
-C:\myProj\BCRS\BCRS\obj\Debug\BCRS.csprojResolveAssemblyReference.cache
-C:\myProj\BCRS\BCRS\obj\Debug\BCRS.dll
-C:\myProj\BCRS\BCRS\obj\Debug\BCRS.pdb
-C:\myProj\BCRS\BCRS\bin\Owin.dll
-C:\myProj\BCRS\BCRS\bin\Microsoft.AspNet.Identity.Core.dll
-C:\myProj\BCRS\BCRS\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\myProj\BCRS\BCRS\bin\Microsoft.Owin.dll
-C:\myProj\BCRS\BCRS\bin\Microsoft.Owin.FileSystems.dll
-C:\myProj\BCRS\BCRS\bin\Microsoft.Owin.Security.Cookies.dll
-C:\myProj\BCRS\BCRS\bin\Microsoft.Owin.Security.dll
-C:\myProj\BCRS\BCRS\bin\Microsoft.Owin.Security.OAuth.dll
-C:\myProj\BCRS\BCRS\bin\Microsoft.Owin.StaticFiles.dll
-C:\myProj\BCRS\BCRS\bin\Microsoft.AspNet.Identity.Core.xml
-C:\myProj\BCRS\BCRS\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\myProj\BCRS\BCRS\bin\Microsoft.Owin.xml
-C:\myProj\BCRS\BCRS\bin\Microsoft.Owin.FileSystems.xml
-C:\myProj\BCRS\BCRS\bin\Microsoft.Owin.Security.xml
-C:\myProj\BCRS\BCRS\bin\Microsoft.Owin.Security.Cookies.xml
-C:\myProj\BCRS\BCRS\bin\Microsoft.Owin.Security.OAuth.xml
-C:\myProj\BCRS\BCRS\bin\Microsoft.Owin.StaticFiles.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\roslyn\csc.exe
-D:\Education\3 course\itera\BCRS\BCRS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\Education\3 course\itera\BCRS\BCRS\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\Education\3 course\itera\BCRS\BCRS\bin\roslyn\System.Collections.Immutable.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\roslyn\System.Reflection.Metadata.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\roslyn\vbc.exe
-D:\Education\3 course\itera\BCRS\BCRS\bin\roslyn\VBCSCompiler.exe
-D:\Education\3 course\itera\BCRS\BCRS\bin\roslyn\VBCSCompiler.exe.config
-D:\Education\3 course\itera\BCRS\BCRS\bin\BCRS.dll.config
-D:\Education\3 course\itera\BCRS\BCRS\bin\BCRS.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\BCRS.pdb
-D:\Education\3 course\itera\BCRS\BCRS\bin\Antlr3.Runtime.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\DAL.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\EntityFramework.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\EntityFramework.SqlServer.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.AspNet.Identity.Core.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.AspNet.Identity.Owin.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Owin.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Owin.FileSystems.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Owin.Security.Cookies.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Owin.Security.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Owin.Security.OAuth.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Owin.StaticFiles.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Web.Infrastructure.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\Newtonsoft.Json.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\Owin.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Net.Http.Formatting.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Helpers.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Http.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Http.WebHost.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Mvc.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Optimization.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Razor.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Webpages.Deployment.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Webpages.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Webpages.Razor.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\WebGrease.dll
-D:\Education\3 course\itera\BCRS\BCRS\bin\DAL.pdb
-D:\Education\3 course\itera\BCRS\BCRS\bin\Antlr3.Runtime.pdb
-D:\Education\3 course\itera\BCRS\BCRS\bin\EntityFramework.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\EntityFramework.SqlServer.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.AspNet.Identity.Core.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.AspNet.Identity.Owin.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Owin.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Owin.FileSystems.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Owin.Security.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Owin.Security.Cookies.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Owin.Security.OAuth.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\Microsoft.Owin.StaticFiles.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Optimization.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Razor.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Webpages.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Webpages.Deployment.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Webpages.Razor.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Helpers.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Mvc.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\Newtonsoft.Json.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Net.Http.Formatting.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Http.xml
-D:\Education\3 course\itera\BCRS\BCRS\bin\System.Web.Http.WebHost.xml
-D:\Education\3 course\itera\BCRS\BCRS\obj\Debug\BCRS.csprojResolveAssemblyReference.cache
-D:\Education\3 course\itera\BCRS\BCRS\obj\Debug\BCRS.dll
-D:\Education\3 course\itera\BCRS\BCRS\obj\Debug\BCRS.pdb
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\roslyn\csc.exe
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\roslyn\vbc.exe
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\roslyn\VBCSCompiler.exe
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\BCRS.dll.config
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\BCRS.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\BCRS.pdb
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Antlr3.Runtime.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\DAL.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\EntityFramework.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\EntityFramework.SqlServer.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Owin.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Owin.FileSystems.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Owin.Security.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Owin.StaticFiles.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Newtonsoft.Json.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Owin.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Net.Http.Formatting.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Helpers.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Http.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Http.WebHost.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Mvc.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Optimization.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Razor.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Webpages.Deployment.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Webpages.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Webpages.Razor.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\WebGrease.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\DAL.pdb
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Antlr3.Runtime.pdb
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\EntityFramework.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\EntityFramework.SqlServer.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Owin.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Owin.FileSystems.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Owin.Security.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Microsoft.Owin.StaticFiles.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Optimization.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Razor.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Webpages.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Webpages.Deployment.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Webpages.Razor.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Helpers.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Mvc.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\Newtonsoft.Json.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Net.Http.Formatting.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Http.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\bin\System.Web.Http.WebHost.xml
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\obj\Debug\BCRS.csprojResolveAssemblyReference.cache
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\obj\Debug\BCRS.dll
-C:\Users\Nastya\Source\Repos\Building-Company-Rating-System\BCRS\obj\Debug\BCRS.pdb
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\csc.exe
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\vbc.exe
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\BCRS.dll.config
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\BCRS.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\BCRS.pdb
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Antlr3.Runtime.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\DAL.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\EntityFramework.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\EntityFramework.SqlServer.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.FileSystems.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.StaticFiles.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Newtonsoft.Json.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Owin.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Net.Http.Formatting.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Helpers.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Http.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Http.WebHost.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Mvc.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Optimization.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Razor.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Webpages.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Webpages.Razor.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\WebGrease.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\DAL.pdb
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Antlr3.Runtime.pdb
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\EntityFramework.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\EntityFramework.SqlServer.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.FileSystems.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.StaticFiles.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Optimization.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Razor.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Webpages.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Webpages.Razor.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Helpers.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Mvc.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Newtonsoft.Json.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Net.Http.Formatting.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Http.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Http.WebHost.xml
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\obj\Debug\BCRS.dll
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\obj\Debug\BCRS.pdb
+C:\Users\Nazar\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\obj\Debug\BCRS.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\csc.exe
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\vbc.exe
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\VBCSCompiler.exe
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\BCRS.dll.config
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\BCRS.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\BCRS.pdb
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Antlr3.Runtime.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\DAL.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\EntityFramework.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\EntityFramework.SqlServer.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.FileSystems.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.StaticFiles.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Newtonsoft.Json.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Owin.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Net.Http.Formatting.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Helpers.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Http.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Http.WebHost.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Mvc.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Optimization.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Razor.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Webpages.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Webpages.Razor.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\WebGrease.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\DAL.pdb
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Antlr3.Runtime.pdb
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\EntityFramework.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\EntityFramework.SqlServer.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.FileSystems.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Microsoft.Owin.StaticFiles.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Optimization.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Razor.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Webpages.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Webpages.Razor.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Helpers.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Mvc.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\Newtonsoft.Json.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Net.Http.Formatting.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Http.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\bin\System.Web.Http.WebHost.xml
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\obj\Debug\BCRS.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\obj\Debug\BCRS.dll
+C:\Users\pc\Desktop\Building-Company-Rating-System7\Building-Company-Rating-System7\BCRS\obj\Debug\BCRS.pdb

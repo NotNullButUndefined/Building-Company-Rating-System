@@ -11,14 +11,32 @@ namespace BCRS.Controllers
 {
     public class HomeController : Controller
     {
-       
-        //
-        // GET: /Home/
-        public ActionResult Index()
+        IRepository<Company> reposCompany;
+        IRepository<Building> reposBuilding;
+
+        public HomeController(IRepository <Company>_reposComp, IRepository<Building> _reposBuilding){
+            reposCompany = _reposComp;
+            reposBuilding = _reposBuilding;
+        }
+
+        public HomeController()
         {
 
-            IRepository<Company> repos = new Repository<Company>();
-            Company[] arr = repos.GetAll();
+        }
+
+       
+        public ActionResult Index()
+        {
+            reposCompany = new Repository<Company>();
+            Company[] arr = reposCompany.GetAll();
+            return View(arr.OfType<Company>().ToList());
+        }
+
+        
+        public ActionResult Buildings()
+        {
+            reposBuilding = new Repository<Building>();
+            Building[] arr = reposBuilding.GetAll();
             return View(arr.OfType<Company>().ToList());
         }
 	}

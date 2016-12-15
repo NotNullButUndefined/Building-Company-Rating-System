@@ -156,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\pictures\kievmiskbud-logo.png" />
+    <Content Include="Content\pictures\large.jpg" />
     <Content Include="Content\pictures\logo.png" />
     <Content Include="Content\pictures\slider1.jpg" />
     <Content Include="Content\styles\font-awesome.min.css" />
@@ -165,7 +166,6 @@
     <Content Include="Views\Account\UserPage.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
-    <None Include="Views\Home\Index.cshtml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -178,6 +178,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="App_Start\Constants.cs" />
+    <Compile Include="ControllersFactories\HomeControllerFactory.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -190,6 +191,8 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="Views\Layouts\Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Buildings.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

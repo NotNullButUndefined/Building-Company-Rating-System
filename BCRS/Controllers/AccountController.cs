@@ -33,16 +33,16 @@ namespace BCRS.Controllers
         // GET: UserReg
         public ActionResult Index()
         {
-            IRepository<User> repos = new Repository<User>();
-            User[] usersList = repos.GetAll();
-            return View(usersList.OfType<User>().ToList());
+            //IRepository<User> repos = new Repository<User>();
+           // User[] usersList = repos.GetAll();
+            return View("~/Views/Home/Index.cshtml");
         }
 
         public ActionResult Register()
         {
-
             return View();
         }
+
         [HttpPost]
         public ActionResult Register(User userAccount)
         {
@@ -53,12 +53,8 @@ namespace BCRS.Controllers
                
                 userAccount.RoleId = 1;
                 userAccount.Id = 1;
-             
                 userRepository.Add(userAccount);
-
                 SendEmailToUser(userAccount);
-
-
                 ModelState.Clear();
                 ViewBag.Message = userAccount.Name + " " + userAccount.Surname + " successfully register";
 
