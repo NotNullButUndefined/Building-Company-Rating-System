@@ -10,9 +10,9 @@ using System.Net.Mail;
 using System.Security.Claims;
 using System.Web.Mvc;
 using System.Web.Security;
-
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
+using System.Web;
 
 namespace BCRS.Controllers
 {
@@ -31,13 +31,21 @@ namespace BCRS.Controllers
 
     public class AccountController : Controller
     {
-        UserRepository userRepository = new UserRepository();
+        IUserRepository userRepository = new UserRepository();
 
         public ActionResult Index()
         {
             //IRepository<User> repos = new Repository<User>();
            // User[] usersList = repos.GetAll();
             return View("~/Views/Home/Index.cshtml");
+        }
+
+        private IAuthenticationManager Authentication
+        {
+            get
+            {
+                return HttpContext.GetOwinContext().Authentication;
+            }
         }
 
         public ActionResult Register()
@@ -95,9 +103,10 @@ namespace BCRS.Controllers
             _cookie = new Cookie();
         }
 
-        //[Authorize(Roles = "User")]
+        [Authorize]
         public ActionResult UserPage()
         {
+            
             return View();
         }
 
@@ -108,7 +117,7 @@ namespace BCRS.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        public bool Login(LoginDto user)
+        public ActionResult Login(LoginDto user)
         {
             if (ModelState.IsValid)
             {
@@ -117,21 +126,41 @@ namespace BCRS.Controllers
                 if (loginResult)
                 {
                     _cookie.SetCookie(user.Email, user.RememberMe);
-                    return true;
+                    var actualUser = userRepository.GetByEmail(user.Email);
+                    var claims = new List<Claim>()
+                    {
+                            new Claim(ClaimTypes.NameIdentifier, actualUser.ToString()),
+                            new Claim(ClaimTypes.Name, actualUser.Name),
+                            new Claim(ClaimTypes.Surname, actualUser.Surname),
+                            new Claim(ClaimTypes.Email, actualUser.Email)
+                    };
+                    
+                    Authentication.SignIn(
+                        new AuthenticationProperties
+                        {
+                            AllowRefresh = true,
+                            IsPersistent = false
+                        },
+                        new ClaimsIdentity(claims, DefaultAuthenticationTypes.ApplicationCookie));
+
+                    return RedirectToAction("UserPage", "Account");
+                    //return true;
                 }
                 else
                 {
                     ModelState.AddModelError("incorrect login", "Login data is incorrect!");
-                    return false;
+                    //return false;
                 }
             }
-            return false;
+            return View(user);
+            //return false;
         }
 
+        [HttpGet]
         public ActionResult Logout()
         {
-            FormsAuthentication.SignOut();
-            return RedirectToAction("Index", "Home");
+            Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+            return Redirect("/");
         }
     }
 }

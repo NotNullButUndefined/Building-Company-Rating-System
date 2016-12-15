@@ -18,7 +18,7 @@ namespace DAL.Services
 
         public bool TryLogin(string email, string password)
         {
-            var user = _userRepo.GetByEmail(email, password);
+            var user = _userRepo.GetByEmailAndPassword(email, password);
 
             return user == null ? false : true;
         }

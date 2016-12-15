@@ -10,12 +10,20 @@ namespace DAL.Repositories
 {
     public class UserRepository : Repository<User>, IUserRepository
     {
-        public User GetByEmail(string email, string password)
+        public User GetByEmailAndPassword(string email, string password)
         {
             using (BuildingServiceContext context = new BuildingServiceContext())
             {
                 return context.Set<User>().FirstOrDefault(u => u.Email.Equals(email) &&
                                                                u.Password.Equals(password));
+            }
+        }
+
+        public User GetByEmail(string email)
+        {
+            using (BuildingServiceContext context = new BuildingServiceContext())
+            {
+                return context.Set<User>().FirstOrDefault(u => u.Email.Equals(email));
             }
         }
     }

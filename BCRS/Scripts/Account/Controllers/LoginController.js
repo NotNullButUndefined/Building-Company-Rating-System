@@ -7,8 +7,13 @@
 
     LoginController.$inject = ['$uibModal', '$routeParams', 'LoginFactory', '$window'];
 
-    function LoginController($uibModal, $routeParams, LoginFactory, $window) {
+    function LoginController($uibModal, $routeParams, LoginFactory, $window, $scope) {
         var vm = this;
+
+        $scope.init = function (employees) {
+            $scope.employees = employees;
+            debugger;
+        }
         
         vm.openModal = function() {
             var ModalInstance = $uibModal.open({
@@ -33,7 +38,11 @@
             loginFailure: false
         };
 
-        vm.login = function () {
+        vm.init = function (data) {
+            debugger;
+        }
+
+        vm.login = function (loginState) {
             var result = LoginFactory.login(vm.emailAddress, vm.password, vm.rememberMe);
             result.then(function(result) {
                 if (result.success) {

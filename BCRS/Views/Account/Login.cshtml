@@ -22,16 +22,17 @@
                 </div>
             </div>
         </script>
-        <form ng-submit="loginCtrl.login()">
-            <div class="row">
+        @using (Html.BeginForm())
+        {
+            <div class="row" ng-init="loginCtrl.init(@Newtonsoft.Json.JsonConvert.SerializeObject(Model))">
                 <div class="col-md-12">
                     <h1 class="text-center">Sign in</h1>
                 </div>
                 <div class="col-md-offset-4 col-md-6">
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="emailAddress">Email Address:</label>
+                        @Html.LabelFor(m => m.Email, new { @class = "col-md-4 control-label" })
                         <div class="col-md-10">
-                            <input type="email" class="form-control" ng-model="loginCtrl.emailAddress" id="emailAddress" />
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control"})
                         </div>
                     </div>
                 </div>
@@ -39,28 +40,28 @@
             <div class="row">
                 <div class="col-md-offset-4 col-md-6">
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="password">Password:</label>
+                        @Html.LabelFor(m => m.Password, new { @class = "col-md-4 control-label" })
                         <div class="col-md-10">
-                            <input class="form-control" type="password" id="password" ng-model="loginCtrl.password" />
+                            @Html.TextBoxFor(m => m.Password, new { @class = "form-control" })
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-md-offset-3 col-md-10">
                             <div class="checkbox">
-                                <label for="rememberMe">Remember Me:</label>
-                                <input type="checkbox" id="rememberMe" ng-model="loginCtrl.rememberMe" />
+                                @Html.LabelFor(m => m.RememberMe)
+                                @Html.CheckBoxFor(m => m.RememberMe)
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-md-10">
-                            <button type="submit">Login</button>
+                            <input type="submit" value="Login" class="form-btn" />
                             <h5 class="text-center">Not yet joined? <a>Register</a></h5>
                             @Html.ActionLink("Forgot your password?", "ForgotPassword")
                         </div>
                     </div>
                 </div>
             </div>
-        </form>
+        }
     </div>
 </div>

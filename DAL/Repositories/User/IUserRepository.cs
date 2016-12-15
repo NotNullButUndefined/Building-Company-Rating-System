@@ -9,6 +9,7 @@ namespace DAL.Repositories
 {
     public interface IUserRepository : IRepository<User>
     {
-        User GetByEmail(string email, string password);
+        User GetByEmailAndPassword(string email, string password);
+        User GetByEmail(string email);
     }
 }

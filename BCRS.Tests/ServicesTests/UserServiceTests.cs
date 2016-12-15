@@ -28,7 +28,7 @@ namespace BCRS.Tests.ServicesTests
         public void TryLoginShouldReturnTrueIfUserWithSuchEmailAndPasswordExists()
         {
             //arrange
-            _mockUserRepo.Setup(u => u.GetByEmail(It.IsAny<string>(),
+            _mockUserRepo.Setup(u => u.GetByEmailAndPassword(It.IsAny<string>(),
                                               It.IsAny<string>()))
                                                                   .Returns(_user);
             //act
@@ -44,7 +44,7 @@ namespace BCRS.Tests.ServicesTests
         {
             //arrange
             User us = null;
-            _mockUserRepo.Setup(u => u.GetByEmail(It.IsAny<string>(),
+            _mockUserRepo.Setup(u => u.GetByEmailAndPassword(It.IsAny<string>(),
                                               It.IsAny<string>()))
                                                                   .Returns(us);
             //act
