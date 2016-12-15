@@ -1,60 +1,66 @@
 ﻿@using BCRS.Models
-
 @model LoginDto
-
 @{
     ViewBag.Title = "Log in";
     Layout = "~/Views/Layouts/Layout.cshtml";
 }
-
-    
-
-<div class="section">
+@Scripts.Render(BCRS.Constants.Account)
+@Scripts.Render(BCRS.Constants.LoginModalWindow)
+<div class="section" ng-controller="LoginController as loginCtrl">
     <div class="container">
-    @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post))
-    {
-        @Html.AntiForgeryToken()
-        @Html.ValidationSummary(true, "Login failed. Check your login details.")
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="text-center">Sign in</h1>
-            </div>
-            <div class="col-md-offset-4 col-md-6">
-                <div class="form-group">
-                    @Html.LabelFor(m => m.Email, new { @class = "col-md-4 control-label" })
-                    <div class="col-md-10">
-                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
-                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
-                    </div>
+        <script type="text/ng-template" id="LoginFailed.html">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" ng-click="loginFailedCtrl.cancel()">&times;</button>
+                    <h3 class="modal-title" id="modal-title">Login failed</h3>
+                </div>
+                <div class="modal-body" id="modal-body">
+                    <p>Your login or password is not correct, please check your input</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" type="button" ng-click="loginFailedCtrl.ok()">Ok</button>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-offset-4 col-md-6">
+        </script>
+        <form ng-submit="loginCtrl.login()">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Sign in</h1>
+                </div>
+                <div class="col-md-offset-4 col-md-6">
                     <div class="form-group">
-                        @Html.LabelFor(m => m.Password, new { @class = "col-md-4 control-label" })
+                        <label class="col-md-4 control-label" for="emailAddress">Email Address:</label>
                         <div class="col-md-10">
-                            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
-                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                            <input type="email" class="form-control" ng-model="loginCtrl.emailAddress" id="emailAddress" />
                         </div>
-                    </div>
-                <div class="form-group">
-                    <div class="col-md-offset-3 col-md-10">
-                        <div class="checkbox">
-                            @Html.CheckBoxFor(m => m.RememberMe)
-                            @Html.LabelFor(m => m.RememberMe)
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                        <div class="col-md-10">
-                        <input type="submit" value="OKaaaa" class="btn btn-success" />
-                        <h5 class="text-center">Not yet joined? <a>Register</a></h5>
-                        @Html.ActionLink("Forgot your password?", "ForgotPassword")
                     </div>
                 </div>
             </div>
-        </div>
-    }
+            <div class="row">
+                <div class="col-md-offset-4 col-md-6">
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="password">Password:</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="password" id="password" ng-model="loginCtrl.password" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-3 col-md-10">
+                            <div class="checkbox">
+                                <label for="rememberMe">Remember Me:</label>
+                                <input type="checkbox" id="rememberMe" ng-model="loginCtrl.rememberMe" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-10">
+                            <button type="submit">Login</button>
+                            <h5 class="text-center">Not yet joined? <a>Register</a></h5>
+                            @Html.ActionLink("Forgot your password?", "ForgotPassword")
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
 </div>

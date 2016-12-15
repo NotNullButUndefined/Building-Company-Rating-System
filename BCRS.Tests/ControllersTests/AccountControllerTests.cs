@@ -10,7 +10,7 @@ using BCRS.Models;
 
 namespace BCRS.Tests.ControllersTests
 {
-   
+
     [TestClass]
     public class AccountControllerTests
     {
@@ -28,7 +28,7 @@ namespace BCRS.Tests.ControllersTests
         }
 
         [TestMethod]
-        public void LoginShouldReturnViewUserPageIfLoginIsSuccessful()
+        public void LoginShouldReturnTrueIfLoginIsSuccessful()
         {
             //arrange
             _mockUserService.Setup(s => s.TryLogin(It.IsAny<string>(),
@@ -36,14 +36,14 @@ namespace BCRS.Tests.ControllersTests
                                                                        .Returns(true);
 
             //act
-            var result = _accController.Login(_loginDto, "return url") as ViewResult;
+            var result = _accController.Login(_loginDto);
 
             //assert    
-            Assert.AreEqual("UserPage", result.ViewName);
+            Assert.IsTrue(result);
         }
 
         [TestMethod]
-        public void LoginShouldAddErrorToModelIfLoginIsNotSuccessful()
+        public void LoginShouldRetunrFalselIfLoginIsNotSuccessful()
         {
             //arrange
             _mockUserService.Setup(s => s.TryLogin(It.IsAny<string>(),
@@ -51,23 +51,23 @@ namespace BCRS.Tests.ControllersTests
                                                                        .Returns(false);
 
             //act
-            var result = _accController.Login(_loginDto, "return url") as ViewResult;
-            
+            var result = _accController.Login(_loginDto);
+
             //assert    
-            Assert.IsFalse(result.ViewData.ModelState.IsValid);
+            Assert.IsFalse(result);
         }
 
         [TestMethod]
-        public void LoginShouldReturnViewLoginAgainIfModelStateIsNotValid()
+        public void LoginShouldReturnFalseIfModelStateIsNotValid()
         {
             //arrange
             _accController.ModelState.AddModelError("error", "error");
 
             //act
-            var result = _accController.Login(_loginDto, "return url") as ViewResult;
+            var result = _accController.Login(_loginDto);
 
             //assert    
-            Assert.AreEqual("", result.ViewName);
+            Assert.IsFalse(result);
         }
     }
 }

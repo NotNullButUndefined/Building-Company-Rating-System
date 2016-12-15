@@ -7,10 +7,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
-using System.Threading.Tasks;
-using System.Web;
+using System.Security.Claims;
 using System.Web.Mvc;
 using System.Web.Security;
+
+using Microsoft.AspNet.Identity;
+using Microsoft.Owin.Security;
 
 namespace BCRS.Controllers
 {
@@ -30,7 +32,7 @@ namespace BCRS.Controllers
     public class AccountController : Controller
     {
         UserRepository userRepository = new UserRepository();
-        // GET: UserReg
+
         public ActionResult Index()
         {
             //IRepository<User> repos = new Repository<User>();
@@ -46,18 +48,14 @@ namespace BCRS.Controllers
         [HttpPost]
         public ActionResult Register(User userAccount)
         {
-       
             if (ModelState.IsValid)
             {
-
-               
                 userAccount.RoleId = 1;
                 userAccount.Id = 1;
                 userRepository.Add(userAccount);
                 SendEmailToUser(userAccount);
                 ModelState.Clear();
                 ViewBag.Message = userAccount.Name + " " + userAccount.Surname + " successfully register";
-
             }
             return View();
         }
@@ -78,8 +76,8 @@ namespace BCRS.Controllers
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
             client.Send(mail);
             mail.Dispose();
-
         }
+
         IUserService _userService;
         ICookie _cookie;
 
@@ -92,9 +90,12 @@ namespace BCRS.Controllers
 
         public AccountController()
         {
-
+            var userRepo = new UserRepository();
+            _userService = new UserService(userRepo);
+            _cookie = new Cookie();
         }
 
+        //[Authorize(Roles = "User")]
         public ActionResult UserPage()
         {
             return View();
@@ -107,8 +108,7 @@ namespace BCRS.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        [ValidateAntiForgeryToken]
-        public ActionResult Login(LoginDto user, string returnUrl)
+        public bool Login(LoginDto user)
         {
             if (ModelState.IsValid)
             {
@@ -117,14 +117,15 @@ namespace BCRS.Controllers
                 if (loginResult)
                 {
                     _cookie.SetCookie(user.Email, user.RememberMe);
-                    return View("UserPage");
+                    return true;
                 }
                 else
                 {
                     ModelState.AddModelError("incorrect login", "Login data is incorrect!");
+                    return false;
                 }
             }
-            return View(user);
+            return false;
         }
 
         public ActionResult Logout()
