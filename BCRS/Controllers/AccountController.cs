@@ -31,7 +31,7 @@ namespace BCRS.Controllers
 
     public class AccountController : Controller
     {
-        IUserRepository userRepository = new UserRepository();
+        IUserRepository _userRepo;
 
         public ActionResult Index()
         {
@@ -60,7 +60,7 @@ namespace BCRS.Controllers
             {
                 userAccount.RoleId = 1;
                 userAccount.Id = 1;
-                userRepository.Add(userAccount);
+                _userRepo.Add(userAccount);
                 SendEmailToUser(userAccount);
                 ModelState.Clear();
                 ViewBag.Message = userAccount.Name + " " + userAccount.Surname + " successfully register";
@@ -90,10 +90,12 @@ namespace BCRS.Controllers
         ICookie _cookie;
 
         public AccountController(IUserService userService,
-                                 ICookie cookie)
+                                 ICookie cookie,
+                                 IUserRepository userRepo)
         {
             _userService = userService;
             _cookie = cookie;
+            _userRepo = userRepo;
         }
 
         public AccountController()
@@ -126,7 +128,7 @@ namespace BCRS.Controllers
                 if (loginResult)
                 {
                     _cookie.SetCookie(user.Email, user.RememberMe);
-                    var actualUser = userRepository.GetByEmail(user.Email);
+                    var actualUser = _userRepo.GetByEmail(user.Email);
                     var claims = new List<Claim>()
                     {
                             new Claim(ClaimTypes.NameIdentifier, actualUser.ToString()),
@@ -144,12 +146,10 @@ namespace BCRS.Controllers
                         new ClaimsIdentity(claims, DefaultAuthenticationTypes.ApplicationCookie));
 
                     return RedirectToAction("UserPage", "Account");
-                    //return true;
                 }
                 else
                 {
                     ModelState.AddModelError("incorrect login", "Login data is incorrect!");
-                    //return false;
                 }
             }
             return View(user);

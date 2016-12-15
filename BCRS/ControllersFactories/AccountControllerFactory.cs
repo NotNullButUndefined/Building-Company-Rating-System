@@ -18,7 +18,7 @@ namespace BCRS.App_Start
             IUserRepository userRepo = new UserRepository();
             IUserService userService = new UserService(userRepo);
             ICookie cookie = new Cookie();
-            AccountController accController = new AccountController(userService, cookie);
+            AccountController accController = new AccountController(userService, cookie, userRepo);
             return accController;
         }
 
