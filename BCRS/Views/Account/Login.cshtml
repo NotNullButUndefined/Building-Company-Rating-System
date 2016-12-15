@@ -24,7 +24,7 @@
         </script>
         @using (Html.BeginForm())
         {
-            <div class="row" ng-init="loginCtrl.init(@Newtonsoft.Json.JsonConvert.SerializeObject(Model))">
+            <div class="row">
                 <div class="col-md-12">
                     <h1 class="text-center">Sign in</h1>
                 </div>
@@ -33,6 +33,7 @@
                         @Html.LabelFor(m => m.Email, new { @class = "col-md-4 control-label" })
                         <div class="col-md-10">
                             @Html.TextBoxFor(m => m.Email, new { @class = "form-control"})
+                            @Html.ValidationMessage("incorrect login", new { @class = "glyphicon glyphicon-question-sign" })
                         </div>
                     </div>
                 </div>
@@ -43,6 +44,7 @@
                         @Html.LabelFor(m => m.Password, new { @class = "col-md-4 control-label" })
                         <div class="col-md-10">
                             @Html.TextBoxFor(m => m.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Password)
                         </div>
                     </div>
                     <div class="form-group">
@@ -50,6 +52,7 @@
                             <div class="checkbox">
                                 @Html.LabelFor(m => m.RememberMe)
                                 @Html.CheckBoxFor(m => m.RememberMe)
+                                
                             </div>
                         </div>
                     </div>
