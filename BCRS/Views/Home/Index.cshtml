@@ -1,10 +1,9 @@
-﻿<!--@Model IEnumerable <dal.entities.company> -->
+﻿@model IEnumerable<DAL.Entities.Company>
 
+<html>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @Styles.Render(BCRS.Constants.StyleBandleHome)
-  
-
-
+<body>
     <div class="cover">
         <div class="navbar">
             <div class="container">
@@ -265,23 +264,17 @@
                                 <div class="row">
                                     @using (Html.BeginForm("Search", "Home", FormMethod.Post))
                                     {
+                                        foreach (var comp in Model)
+                                        {
+                                            <div class="col-md-4">
 
-                                        <!-- form here -->
-                                        
-
-                                    
-                                    foreach (DAL.Entities.Company comp in Model)
-                                    {
-                                        <div class="col-md-4">
-
-                                            <a><img src=@comp.logo class="img-responsive" width="300"></a>
-                                            <h3>@comp.Name</h3>
-                                            <div class="btn-group">
-                                                <input type="button" class="btn btn-darkgreen btn-sm btn-rectangle javo-advanced-toggle" value="See buildings" name=@comp.Id>
+                                                <a><img src=@comp.logo class="img-responsive" width="300"></a>
+                                                <h3>@comp.Name</h3>
+                                                <div class="btn-group">
+                                                    @Html.ActionLink("Buildings", "Buildings", "Home", new { id = comp.Id }, new { @class = "btn btn-darkgreen btn-sm btn-rectangle javo-advanced-toggle" })
+                                                </div>
                                             </div>
-
-                                        </div>
-                                    }
+                                        }
                                     }
                                 </div>
                             </div>

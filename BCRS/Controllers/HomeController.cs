@@ -14,16 +14,17 @@ namespace BCRS.Controllers
         IRepository<Company> reposCompany;
         IRepository<Building> reposBuilding;
 
-        public HomeController(IRepository <Company>_reposComp, IRepository<Building> _reposBuilding){
+        public HomeController(IRepository <Company>_reposComp, IRepository<Building> _reposBuilding)
+        {
             reposCompany = _reposComp;
             reposBuilding = _reposBuilding;
         }
 
         public HomeController()
         {
-
+            reposCompany = new Repository<Company>();
+            reposBuilding = new Repository<Building>();
         }
-
        
         public ActionResult Index()
         {
@@ -42,16 +43,10 @@ namespace BCRS.Controllers
             return list.OrderBy(s => s.Name);
         }
 
-        public ActionResult Buildings(int CompanyId)
+        public ActionResult Buildings(int id)
         {
-            //Change?
-            List<Building> listBuild = new List<Building>();
-            Building[] arr = reposBuilding.GetAll();
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (arr[i].CompanyId == CompanyId) listBuild.Add(arr[i]);
-            }
-                return View(listBuild);
+            var result = reposBuilding.GetAll().Where(building => building.CompanyId == id);
+            return View(result);
         }
 	}
 }
