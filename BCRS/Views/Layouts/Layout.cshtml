@@ -36,9 +36,18 @@
                         <li class="active">
                             <a href="#">Search</a>
                         </li>
-                        <li class="active">
-                            <a href="#">Sign in</a>
-                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="active">
+                                <a href="~/Account/Logout">Log out</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="active">
+                                <a href="~/Account/Login">Sign in</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>

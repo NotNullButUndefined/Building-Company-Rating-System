@@ -100,8 +100,8 @@ namespace BCRS.Controllers
 
         public AccountController()
         {
-            var userRepo = new UserRepository();
-            _userService = new UserService(userRepo);
+            _userRepo = new UserRepository();
+            _userService = new UserService(_userRepo);
             _cookie = new Cookie();
         }
 

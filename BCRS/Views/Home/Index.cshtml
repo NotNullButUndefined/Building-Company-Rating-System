@@ -1,15 +1,10 @@
 ﻿<!--@Model IEnumerable <dal.entities.company> -->
 
-<html>
-<head>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @Styles.Render(BCRS.Constants.StyleBandleHome)
   
 
 
-</head>
-<body>
     <div class="cover">
         <div class="navbar">
             <div class="container">
@@ -33,9 +28,18 @@
                         <li class="active">
                             <a href="#">Search</a>
                         </li>
-                        <li>
-                            <a href="~/Account/Register">Sign in</a>
-                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="active">
+                                <a href="~/Account/Logout">Log out</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="active">
+                                <a href="~/Account/Login">Sign in</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
