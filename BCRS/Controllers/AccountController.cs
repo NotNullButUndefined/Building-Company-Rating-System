@@ -106,10 +106,10 @@ namespace BCRS.Controllers
         }
 
         [Authorize]
-        public ActionResult UserPage()
+        public ActionResult UserPage(LoginDto user)
         {
             
-            return View();
+            return View(user);
         }
 
         public ActionResult Login()
@@ -145,7 +145,7 @@ namespace BCRS.Controllers
                         },
                         new ClaimsIdentity(claims, DefaultAuthenticationTypes.ApplicationCookie));
 
-                    return RedirectToAction("UserPage", "Account");
+                    return RedirectToAction("UserPage", user);
                 }
                 else
                 {

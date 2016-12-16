@@ -1,0 +1,30 @@
+﻿<!--@Model IEnumerable <dal.entities.company>-->
+@{
+    Layout = "~/Views/Layouts/Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Search</title>
+</head>
+<body>
+    <div>
+        @foreach (var comp in Model)
+        {
+            <div class="col-md-4">
+
+                <a><img src=@comp.logo class="img-responsive" width="300"></a>
+                <h3>@comp.Name</h3>
+                <div class="btn-group">
+                    <input type="button" class="btn btn-darkgreen btn-sm btn-rectangle javo-advanced-toggle" value="See buildings" name=@comp.Id>
+                </div>
+
+            </div>
+
+        }
+    </div>
+</body>
+</html>

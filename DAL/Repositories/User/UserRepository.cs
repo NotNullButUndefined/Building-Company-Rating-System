@@ -2,6 +2,7 @@
 using DAL.Entities;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,6 +26,16 @@ namespace DAL.Repositories
             {
                 return context.Set<User>().FirstOrDefault(u => u.Email.Equals(email));
             }
+        }
+
+        public void ModifyUserData(User user)
+        {
+            using (BuildingServiceContext context = new BuildingServiceContext())
+            {
+                context.Entry(user).State = EntityState.Modified;
+                context.SaveChanges();
+            }
+
         }
     }
 }

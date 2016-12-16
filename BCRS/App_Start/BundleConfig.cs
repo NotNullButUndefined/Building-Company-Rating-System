@@ -13,6 +13,7 @@ namespace BCRS.App_Start
             bundles.Add(new StyleBundle(Constants.StyleBandleHome).Include("~/Content/styles/itera.css",
                                                                            "~/Content/styles/searchStyles.css",
                                                                            "~/Content/styles/font-awesome.min.css",
+                                                                           "~/Content/styles/userpage.css",
                                                                            "~/Content/ui-bootstrap-csp.css"));
 
             bundles.Add(new ScriptBundle(Constants.AngularBundle).Include("~/Scripts/angular.min.js",

@@ -48,5 +48,24 @@ namespace BCRS.Controllers
             var result = reposBuilding.GetAll().Where(building => building.CompanyId == id);
             return View(result);
         }
+
+        [HttpPost]
+        public ActionResult Search(string searchStr)
+        {
+
+
+            reposCompany = new Repository<Company>();
+            Company[] compArray = reposCompany.GetAll();
+            List<Company> compList = compArray.ToList();
+            //var results = bList.Where(b => b.Name.Contains(searchStr));
+            //results.ToList();
+            var companyItems = from item in compList
+                               where item.Name == searchStr
+                               select item;
+
+            return View(companyItems.ToList());
+
+
+        }
 	}
 }

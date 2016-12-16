@@ -47,6 +47,14 @@
     <Reference Include="Antlr3.Runtime">
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
       <Private>True</Private>
@@ -155,10 +163,12 @@
     <Content Include="Content\pictures\kievmiskbud-logo.png" />
     <Content Include="Content\pictures\large.jpg" />
     <Content Include="Content\pictures\logo.png" />
+    <Content Include="Content\pictures\slide4.png" />
     <Content Include="Content\pictures\slider1.jpg" />
     <Content Include="Content\styles\font-awesome.min.css" />
     <Content Include="Content\styles\itera.css" />
     <Content Include="Content\styles\searchStyles.css" />
+    <Content Include="Content\styles\userpage.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\Account\Controllers\LoginController.js" />
     <Content Include="Scripts\Account\Factories\factory.js" />
@@ -196,10 +206,12 @@
     <Compile Include="ControllersFactories\HomeControllerFactory.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserProfileController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\LoginDto.cs" />
+    <Compile Include="Models\UserEditDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -212,6 +224,8 @@
     <Content Include="Scripts\angular-route.min.js.map" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Views\Home\Search.cshtml" />
+    <Content Include="Views\UserProfile\EditUserData.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

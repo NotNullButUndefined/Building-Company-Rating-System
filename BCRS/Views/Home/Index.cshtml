@@ -20,13 +20,24 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="navbar-search-input col-xs-2">
-                            <input type="text" class="form-control" placeholder="Search">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </li>
-                        <li class="active">
-                            <a href="#">Search</a>
-                        </li>
+                       @using (Html.BeginForm("Search", "Home", FormMethod.Post))
+{
+    <li class="navbar-search-input col-xs-2">
+
+        <input type="text" id="txt" name="searchStr" value="" />
+
+
+
+        @* <input type="text" name="searchStr" class="form-control" placeholder="Search">*@
+
+        <i class="fa fa-search" aria-hidden="true"></i>
+    </li>
+    <li class="active">
+        <input type="submit" value="Search" />
+        @* @Html.ActionLink("Search", "Search", "Home")*@
+    </li>
+}
+                       
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="active">
